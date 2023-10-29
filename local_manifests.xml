@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="Me"
+          fetch="https://github.com/Enprytna" />
+
+  <remote name="Arrow"
+          fetch="https://gitlab.com/omnirom" />
+
+  <remote name="DFG"
+          fetch="https://github.com/DerpFest-ginkgo" />
+
+  <remote name="sepol"
+          fetch="https://github.com/PixelExperience" />
+
+  <remote name="ogi"
+          fetch="https://github.com/omni-on-ginkgo" />
+
+  <remote name="ginkgay"
+          fetch="https://github.com/areyoudeveloper" />
+  <!-- Trees -->
+  <project path="device/xiaomi/ginkgo" name="omni_device_ginkgo" remote="ogi" revision="A13" />
+  <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="ginkgay" revision="origin/main" />
+  <project path="vendor/xiaomi/ginkgo" name="omni_vendor_ginkgo" remote="ogi" revision="A13" />
+ 
+  <!-- MIUI Camera -->
+  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="DFG" revision="arrow-12.0-a3"  />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="aarch64-linux-gnu" remote="ginkgay" revision="4.9-32-mirror" />
+</manifest>
